@@ -245,6 +245,7 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'preservim/nerdtree'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
