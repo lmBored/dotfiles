@@ -1,0 +1,1155 @@
+
+2024/12/22 (01:50:36) | ===> btop++ v.1.4.0
+2024/12/22 (01:50:36) | INFO: Logger set to DEBUG
+2024/12/22 (01:50:36) | DEBUG: Using locale en_US.UTF-8
+2024/12/22 (01:50:36) | INFO: Running on /dev/ttys001
+2024/12/22 (01:50:36) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/12/22 (01:50:36) | DEBUG: checking intel
+2024/12/22 (01:50:36) | DEBUG: no intel sensors found
+2024/12/22 (01:50:36) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/22 (01:50:38) | INFO: Quitting! Runtime: 00:00:02
+
+2024/12/22 (01:50:42) | ===> btop++ v.1.4.0
+2024/12/22 (01:50:42) | INFO: Logger set to DEBUG
+2024/12/22 (01:50:42) | DEBUG: Using locale en_US.UTF-8
+2024/12/22 (01:50:42) | INFO: Running on /dev/ttys001
+2024/12/22 (01:50:42) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/12/22 (01:50:42) | DEBUG: checking intel
+2024/12/22 (01:50:42) | DEBUG: no intel sensors found
+2024/12/22 (01:50:42) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/22 (01:52:11) | DEBUG: Writing new config file
+2024/12/22 (01:52:11) | INFO: Quitting! Runtime: 00:01:29
+
+2024/12/30 (10:47:47) | ===> btop++ v.1.4.0
+2024/12/30 (10:47:47) | INFO: Logger set to DEBUG
+2024/12/30 (10:47:47) | DEBUG: Using locale en_US.UTF-8
+2024/12/30 (10:47:47) | INFO: Running on /dev/ttys001
+2024/12/30 (10:47:47) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/12/30 (10:47:47) | DEBUG: checking intel
+2024/12/30 (10:47:47) | DEBUG: no intel sensors found
+2024/12/30 (10:47:47) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (10:48:20) | DEBUG: Writing new config file
+2024/12/30 (10:48:20) | INFO: Quitting! Runtime: 00:00:33
+
+2024/12/30 (11:13:58) | ===> btop++ v.1.4.0
+2024/12/30 (11:13:58) | INFO: Logger set to DEBUG
+2024/12/30 (11:13:58) | DEBUG: Using locale en_US.UTF-8
+2024/12/30 (11:13:58) | INFO: Running on /dev/ttys002
+2024/12/30 (11:13:58) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/12/30 (11:13:58) | DEBUG: checking intel
+2024/12/30 (11:13:58) | DEBUG: no intel sensors found
+2024/12/30 (11:13:58) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:17:05) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:20) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:21) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:24) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:24) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:25) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:25) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:26) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:26) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:26) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (11:33:28) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/30 (22:55:47) | DEBUG: Writing new config file
+2024/12/30 (22:55:47) | INFO: Quitting! Runtime: 11:41:49
+
+2024/12/30 (22:55:49) | ===> btop++ v.1.4.0
+2024/12/30 (22:55:49) | INFO: Logger set to DEBUG
+2024/12/30 (22:55:49) | DEBUG: Using locale en_US.UTF-8
+2024/12/30 (22:55:49) | INFO: Running on /dev/ttys002
+2024/12/30 (22:55:49) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/12/30 (22:55:49) | DEBUG: checking intel
+2024/12/30 (22:55:49) | DEBUG: no intel sensors found
+2024/12/30 (22:55:49) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/31 (21:14:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2024/12/31 (21:14:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2024/12/31 (21:14:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2024/12/31 (21:14:07) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/31 (21:14:09) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2024/12/31 (21:14:09) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2024/12/31 (21:14:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2024/12/31 (21:14:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2024/12/31 (21:14:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2024/12/31 (21:14:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2024/12/31 (21:14:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2024/12/31 (21:14:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2024/12/31 (21:14:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2024/12/31 (21:14:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2024/12/31 (21:14:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2024/12/31 (21:14:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2024/12/31 (21:14:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2024/12/31 (21:14:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2024/12/31 (21:14:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2024/12/31 (21:14:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2024/12/31 (21:14:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2024/12/31 (21:14:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2024/12/31 (21:14:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2024/12/31 (21:14:21) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2024/12/31 (21:14:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2024/12/31 (21:14:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2024/12/31 (21:14:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2024/12/31 (21:14:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2024/12/31 (21:14:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2024/12/31 (21:14:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2024/12/31 (21:14:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2024/12/31 (21:14:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2024/12/31 (21:14:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2024/12/31 (21:14:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2024/12/31 (21:14:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2024/12/31 (21:14:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2024/12/31 (21:14:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2024/12/31 (21:14:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2024/12/31 (21:14:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+
+2025/01/01 (11:21:50) | ===> btop++ v.1.4.0
+2025/01/01 (11:21:50) | INFO: Logger set to DEBUG
+2025/01/01 (11:21:50) | DEBUG: Using locale en_US.UTF-8
+2025/01/01 (11:21:50) | INFO: Running on /dev/ttys003
+2025/01/01 (11:21:50) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/01 (11:21:50) | DEBUG: checking intel
+2025/01/01 (11:21:50) | DEBUG: no intel sensors found
+2025/01/01 (11:21:50) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/01 (11:22:26) | INFO: Quitting! Runtime: 00:00:36
+2025/01/01 (11:44:18) | DEBUG: Writing new config file
+2025/01/01 (11:44:18) | INFO: Quitting! Runtime: 1d 12:48:29
+
+2025/01/01 (11:44:19) | ===> btop++ v.1.4.0
+2025/01/01 (11:44:19) | INFO: Logger set to DEBUG
+2025/01/01 (11:44:19) | DEBUG: Using locale en_US.UTF-8
+2025/01/01 (11:44:19) | INFO: Running on /dev/ttys002
+2025/01/01 (11:44:19) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/01 (11:44:19) | DEBUG: checking intel
+2025/01/01 (11:44:19) | DEBUG: no intel sensors found
+2025/01/01 (11:44:19) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+
+2025/01/01 (15:17:35) | ===> btop++ v.1.4.0
+2025/01/01 (15:17:35) | INFO: Logger set to DEBUG
+2025/01/01 (15:17:35) | DEBUG: Using locale en_US.UTF-8
+2025/01/01 (15:17:35) | INFO: Running on /dev/ttys001
+2025/01/01 (15:17:35) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/01 (15:17:35) | DEBUG: checking intel
+2025/01/01 (15:17:35) | DEBUG: no intel sensors found
+2025/01/01 (15:17:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+
+2025/01/02 (14:23:39) | ===> btop++ v.1.4.0
+2025/01/02 (14:23:39) | INFO: Logger set to DEBUG
+2025/01/02 (14:23:39) | DEBUG: Using locale en_US.UTF-8
+2025/01/02 (14:23:39) | INFO: Running on /dev/ttys001
+2025/01/02 (14:23:39) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/02 (14:23:39) | DEBUG: checking intel
+2025/01/02 (14:23:39) | DEBUG: no intel sensors found
+2025/01/02 (14:23:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/03 (23:33:43) | INFO: Quitting! Runtime: 1d 09:10:04
+
+2025/01/04 (02:33:12) | ===> btop++ v.1.4.0
+2025/01/04 (02:33:12) | INFO: Logger set to DEBUG
+2025/01/04 (02:33:12) | DEBUG: Using locale en_US.UTF-8
+2025/01/04 (02:33:12) | INFO: Running on /dev/ttys002
+2025/01/04 (02:33:12) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/04 (02:33:12) | DEBUG: checking intel
+2025/01/04 (02:33:12) | DEBUG: no intel sensors found
+2025/01/04 (02:33:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/04 (02:36:17) | INFO: Quitting! Runtime: 00:03:05
+
+2025/01/04 (02:42:15) | ===> btop++ v.1.4.0
+2025/01/04 (02:42:15) | INFO: Logger set to DEBUG
+2025/01/04 (02:42:15) | DEBUG: Using locale en_US.UTF-8
+2025/01/04 (02:42:15) | INFO: Running on /dev/ttys002
+2025/01/04 (02:42:15) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/04 (02:42:15) | DEBUG: checking intel
+2025/01/04 (02:42:15) | DEBUG: no intel sensors found
+2025/01/04 (02:42:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:29) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:40:30) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:31) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:40:32) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:32) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:40:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:40:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:40:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:40:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:40:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:40:47) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:40:47) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:48) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:40:48) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:40:48) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:40:48) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/05 (23:40:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:40:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:40:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:40:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:41:03) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:41:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:41:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:41:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:41:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:41:21) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:41:41) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/05 (23:41:42) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_light.theme
+2025/01/05 (23:41:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adwaita.theme
+2025/01/05 (23:41:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-medium.theme
+2025/01/05 (23:41:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:41:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:41:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:41:46) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:41:56) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:41:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:41:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:41:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:42:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:42:00) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:42:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:42:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:42:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:42:01) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:42:03) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:42:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:42:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:42:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:42:06) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:42:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:42:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:44:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:44:43) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:44:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:44:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:44:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:44:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:44:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:44:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:44:49) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:44:49) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:44:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:44:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:44:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:44:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:44:51) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:44:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:44:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:44:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:44:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:44:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:44:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:44:58) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:44:58) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:46:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:46:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:46:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:46:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:46:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:46:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:46:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:46:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:46:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:46:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:46:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:46:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:46:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:46:14) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:46:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:46:20) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:46:21) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:46:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:46:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:46:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:46:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:46:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:46:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:46:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:46:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:46:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:46:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:46:41) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:46:41) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:46:42) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:46:42) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:46:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:46:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:46:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:46:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/05 (23:46:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:46:51) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:46:51) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:46:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:46:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:46:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:46:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:46:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:46:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:46:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:46:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:46:54) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:46:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:46:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:47:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:47:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:47:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/05 (23:47:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_light.theme
+2025/01/05 (23:47:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/05 (23:47:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:47:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:47:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:47:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/05 (23:47:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_light.theme
+2025/01/05 (23:47:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adwaita.theme
+2025/01/05 (23:47:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-medium.theme
+2025/01/05 (23:47:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:47:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:47:37) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:47:37) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:47:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:47:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:47:51) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:47:58) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:04) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:48:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:48:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:48:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:48:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:48:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:48:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:48:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:48:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:48:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:48:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:48:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:48:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:48:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:48:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:48:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:48:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:48:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:48:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:48:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:48:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:48:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:48:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:48:18) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:48:18) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:48:19) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:48:19) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:48:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:48:20) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:21) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:48:21) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:22) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:48:26) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:48:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:48:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:48:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:48:54) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:49:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:49:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-medium.theme
+2025/01/05 (23:49:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adwaita.theme
+2025/01/05 (23:49:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_light.theme
+2025/01/05 (23:49:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/05 (23:49:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:49:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:49:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/05 (23:49:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:49:39) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:49:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/05 (23:49:46) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:49:46) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:49:47) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/05 (23:49:54) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/05 (23:50:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:50:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:50:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/05 (23:50:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:50:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/05 (23:50:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/05 (23:50:27) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/05 (23:50:28) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:50:28) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/05 (23:50:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/05 (23:50:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:50:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:50:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:50:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:50:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/05 (23:51:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/05 (23:51:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:51:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:51:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/05 (23:51:10) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/05 (23:51:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:51:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:51:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/05 (23:51:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:51:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:51:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/05 (23:51:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/05 (23:51:37) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:51:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:51:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/05 (23:51:41) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/05 (23:51:41) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:51:42) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:51:42) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/05 (23:51:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:51:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:51:43) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:51:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:51:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/05 (23:51:44) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:51:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:51:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/05 (23:51:48) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:51:49) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:51:49) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/05 (23:51:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/05 (23:51:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:51:52) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:51:53) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/05 (23:51:55) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:51:55) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:51:55) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/05 (23:51:57) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:51:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:51:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:52:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:52:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:52:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:52:51) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/05 (23:52:56) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:52:56) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:52:56) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:52:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:52:57) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/05 (23:52:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/05 (23:53:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/05 (23:53:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:01:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:01:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:01:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:01:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/06 (00:01:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:29:19) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:29:20) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:29:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:29:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:29:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:29:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:29:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/06 (00:29:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:29:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:30:12) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:30:25) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:30:54) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:31:30) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:31:31) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:31:32) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:31:50) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:31:51) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:31:56) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:31:59) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:31:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/06 (00:31:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/06 (00:31:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/06 (00:31:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/06 (00:32:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/06 (00:32:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/06 (00:32:00) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/06 (00:32:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/06 (00:32:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/06 (00:32:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/06 (00:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/06 (00:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/06 (00:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/06 (00:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/06 (00:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/06 (00:32:03) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/06 (00:32:03) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/06 (00:32:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/06 (00:32:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/06 (00:32:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/06 (00:32:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/06 (00:32:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/06 (00:32:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/06 (00:32:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/06 (00:32:06) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/greyscale.theme
+2025/01/06 (00:32:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/06 (00:32:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/06 (00:32:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dracula.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/nord.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/monokai.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/night-owl.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-storm.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix.theme
+2025/01/06 (00:32:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/06 (00:32:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/06 (00:32:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/06 (00:32:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/06 (00:32:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/06 (00:32:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/06 (00:32:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/06 (00:32:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/06 (00:32:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/06 (00:32:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/06 (00:32:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/06 (00:32:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/06 (00:32:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/ayu.theme
+2025/01/06 (00:32:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/paper.theme
+2025/01/06 (00:32:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/phoenix-night.theme
+2025/01/06 (00:32:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark.theme
+2025/01/06 (00:32:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/matcha-dark-sea.theme
+2025/01/06 (00:32:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_material_dark.theme
+2025/01/06 (00:32:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/06 (00:32:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/06 (00:32:24) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/06 (00:32:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/06 (00:32:25) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/adapta.theme
+2025/01/06 (00:32:32) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/dusklight.theme
+2025/01/06 (00:32:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/kyli0x.theme
+2025/01/06 (00:32:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/whiteout.theme
+2025/01/06 (00:32:33) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/everforest-dark-hard.theme
+2025/01/06 (00:32:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/flat-remix-light.theme
+2025/01/06 (00:32:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/onedark.theme
+2025/01/06 (00:32:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/HotPurpleTrafficLight.theme
+2025/01/06 (00:32:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/elementarish.theme
+2025/01/06 (00:32:34) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_dark_v2.theme
+2025/01/06 (00:32:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/solarized_dark.theme
+2025/01/06 (00:32:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tomorrow-night.theme
+2025/01/06 (00:32:35) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (00:32:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (00:32:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (00:32:36) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (10:05:19) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (10:05:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (10:05:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/gruvbox_light.theme
+2025/01/06 (10:05:21) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/horizon.theme
+2025/01/06 (10:05:35) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (10:05:36) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (10:05:37) | DEBUG: Loading theme file: /Users/master/.config/btop/themes/phoenix-night.theme
+2025/01/06 (10:05:38) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (10:05:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.4.0/share/btop/themes/tokyo-night.theme
+2025/01/06 (11:42:16) | DEBUG: Writing new config file
+2025/01/06 (11:42:16) | INFO: Quitting! Runtime: 2d 09:00:01
+
+2025/01/06 (11:43:01) | ===> btop++ v.1.4.0
+2025/01/06 (11:43:01) | INFO: Logger set to DEBUG
+2025/01/06 (11:43:01) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (11:43:01) | INFO: Running on /dev/ttys001
+2025/01/06 (11:43:01) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (11:43:01) | DEBUG: checking intel
+2025/01/06 (11:43:01) | DEBUG: no intel sensors found
+2025/01/06 (16:51:04) | DEBUG: Writing new config file
+2025/01/06 (16:51:04) | INFO: Quitting! Runtime: 05:08:03
+
+2025/01/06 (16:51:05) | ===> btop++ v.1.4.0
+2025/01/06 (16:51:05) | INFO: Logger set to DEBUG
+2025/01/06 (16:51:05) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (16:51:05) | INFO: Running on /dev/ttys001
+2025/01/06 (16:51:05) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (16:51:05) | DEBUG: checking intel
+2025/01/06 (16:51:05) | DEBUG: no intel sensors found
+2025/01/06 (17:06:59) | DEBUG: Writing new config file
+2025/01/06 (17:06:59) | INFO: Quitting! Runtime: 00:15:54
+
+2025/01/06 (17:07:00) | ===> btop++ v.1.4.0
+2025/01/06 (17:07:00) | INFO: Logger set to DEBUG
+2025/01/06 (17:07:00) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (17:07:00) | INFO: Running on /dev/ttys001
+2025/01/06 (17:07:00) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (17:07:00) | DEBUG: checking intel
+2025/01/06 (17:07:00) | DEBUG: no intel sensors found
+2025/01/06 (17:07:55) | DEBUG: Writing new config file
+2025/01/06 (17:07:55) | INFO: Quitting! Runtime: 00:00:55
+
+2025/01/06 (17:07:56) | ===> btop++ v.1.4.0
+2025/01/06 (17:07:56) | INFO: Logger set to DEBUG
+2025/01/06 (17:07:56) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (17:07:56) | INFO: Running on /dev/ttys001
+2025/01/06 (17:07:56) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (17:07:56) | DEBUG: checking intel
+2025/01/06 (17:07:56) | DEBUG: no intel sensors found
+2025/01/06 (17:42:15) | DEBUG: Writing new config file
+2025/01/06 (17:42:15) | INFO: Quitting! Runtime: 00:34:19
+
+2025/01/06 (17:42:18) | ===> btop++ v.1.4.0
+2025/01/06 (17:42:18) | INFO: Logger set to DEBUG
+2025/01/06 (17:42:18) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (17:42:18) | INFO: Running on /dev/ttys001
+2025/01/06 (17:42:18) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (17:42:18) | DEBUG: checking intel
+2025/01/06 (17:42:18) | DEBUG: no intel sensors found
+
+2025/01/06 (18:14:40) | ===> btop++ v.1.4.0
+2025/01/06 (18:14:40) | INFO: Logger set to DEBUG
+2025/01/06 (18:14:40) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (18:14:40) | INFO: Running on /dev/ttys002
+2025/01/06 (18:14:40) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (18:14:40) | DEBUG: checking intel
+2025/01/06 (18:14:40) | DEBUG: no intel sensors found
+2025/01/06 (18:15:31) | INFO: Quitting! Runtime: 00:00:51
+
+2025/01/06 (18:15:54) | ===> btop++ v.1.4.0
+2025/01/06 (18:15:54) | INFO: Logger set to DEBUG
+2025/01/06 (18:15:54) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (18:15:54) | INFO: Running on /dev/ttys002
+2025/01/06 (18:15:54) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (18:15:54) | DEBUG: checking intel
+2025/01/06 (18:15:54) | DEBUG: no intel sensors found
+2025/01/06 (18:21:45) | DEBUG: Writing new config file
+2025/01/06 (18:21:45) | INFO: Quitting! Runtime: 00:39:27
+
+2025/01/06 (18:21:47) | ===> btop++ v.1.4.0
+2025/01/06 (18:21:47) | INFO: Logger set to DEBUG
+2025/01/06 (18:21:47) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (18:21:47) | INFO: Running on /dev/ttys001
+2025/01/06 (18:21:47) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (18:21:47) | DEBUG: checking intel
+2025/01/06 (18:21:47) | DEBUG: no intel sensors found
+
+2025/01/06 (18:23:08) | ===> btop++ v.1.4.0
+2025/01/06 (18:23:08) | INFO: Logger set to DEBUG
+2025/01/06 (18:23:08) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (18:23:08) | INFO: Running on /dev/ttys001
+2025/01/06 (18:23:08) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/06 (18:23:08) | DEBUG: checking intel
+2025/01/06 (18:23:08) | DEBUG: no intel sensors found
+2025/01/07 (10:31:36) | INFO: Quitting! Runtime: 16:08:28
+
+2025/01/07 (11:22:18) | ===> btop++ v.1.4.0
+2025/01/07 (11:22:18) | INFO: Logger set to DEBUG
+2025/01/07 (11:22:18) | DEBUG: Using locale en_US.UTF-8
+2025/01/07 (11:22:18) | INFO: Running on /dev/ttys001
+2025/01/07 (11:22:18) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/07 (11:22:18) | DEBUG: checking intel
+2025/01/07 (11:22:18) | DEBUG: no intel sensors found
+2025/01/07 (12:00:16) | INFO: Quitting! Runtime: 00:37:58
+
+2025/01/07 (12:00:18) | ===> btop++ v.1.4.0
+2025/01/07 (12:00:18) | INFO: Logger set to DEBUG
+2025/01/07 (12:00:18) | DEBUG: Using locale en_US.UTF-8
+2025/01/07 (12:00:18) | INFO: Running on /dev/ttys001
+2025/01/07 (12:00:18) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/07 (12:00:18) | DEBUG: checking intel
+2025/01/07 (12:00:18) | DEBUG: no intel sensors found
+2025/01/08 (14:50:34) | ERROR: Stall in Runner thread, restarting!
+
+2025/01/08 (15:33:52) | ===> btop++ v.1.4.0
+2025/01/08 (15:33:52) | INFO: Logger set to DEBUG
+2025/01/08 (15:33:52) | DEBUG: Using locale en_US.UTF-8
+2025/01/08 (15:33:52) | INFO: Running on /dev/ttys004
+2025/01/08 (15:33:52) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/08 (15:33:52) | DEBUG: checking intel
+2025/01/08 (15:33:52) | DEBUG: no intel sensors found
+2025/01/08 (15:33:59) | INFO: Quitting! Runtime: 00:00:07
+
+2025/01/08 (15:43:46) | ===> btop++ v.1.4.0
+2025/01/08 (15:43:46) | INFO: Logger set to DEBUG
+2025/01/08 (15:43:46) | DEBUG: Using locale en_US.UTF-8
+2025/01/08 (15:43:46) | INFO: Running on /dev/ttys004
+2025/01/08 (15:43:46) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/08 (15:43:46) | DEBUG: checking intel
+2025/01/08 (15:43:46) | DEBUG: no intel sensors found
+2025/01/08 (16:46:10) | INFO: Quitting! Runtime: 01:02:24
+
+2025/01/08 (22:37:09) | ===> btop++ v.1.4.0
+2025/01/08 (22:37:09) | INFO: Logger set to DEBUG
+2025/01/08 (22:37:09) | DEBUG: Using locale en_US.UTF-8
+2025/01/08 (22:37:09) | INFO: Running on /dev/ttys001
+2025/01/08 (22:37:09) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/08 (22:37:09) | DEBUG: checking intel
+2025/01/08 (22:37:09) | DEBUG: no intel sensors found
+2025/01/08 (22:37:16) | INFO: Quitting! Runtime: 00:00:07
+
+2025/01/08 (22:47:51) | ===> btop++ v.1.4.0
+2025/01/08 (22:47:51) | INFO: Logger set to DEBUG
+2025/01/08 (22:47:51) | DEBUG: Using locale en_US.UTF-8
+2025/01/08 (22:47:51) | INFO: Running on /dev/ttys001
+2025/01/08 (22:47:51) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/08 (22:47:51) | DEBUG: checking intel
+2025/01/08 (22:47:51) | DEBUG: no intel sensors found
+2025/01/08 (22:57:22) | INFO: Quitting! Runtime: 00:09:31
+
+2025/01/08 (23:55:23) | ===> btop++ v.1.4.0
+2025/01/08 (23:55:23) | INFO: Logger set to DEBUG
+2025/01/08 (23:55:23) | DEBUG: Using locale en_US.UTF-8
+2025/01/08 (23:55:23) | INFO: Running on /dev/ttys001
+2025/01/08 (23:55:23) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/08 (23:55:23) | DEBUG: checking intel
+2025/01/08 (23:55:23) | DEBUG: no intel sensors found
+2025/01/08 (23:58:40) | DEBUG: Writing new config file
+2025/01/08 (23:58:40) | INFO: Quitting! Runtime: 00:03:17
+
+2025/01/09 (01:43:55) | ===> btop++ v.1.4.0
+2025/01/09 (01:43:55) | INFO: Logger set to DEBUG
+2025/01/09 (01:43:55) | DEBUG: Using locale en_US.UTF-8
+2025/01/09 (01:43:55) | INFO: Running on /dev/ttys001
+2025/01/09 (01:43:55) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/09 (01:43:55) | DEBUG: checking intel
+2025/01/09 (01:43:55) | DEBUG: no intel sensors found
+2025/01/09 (01:44:48) | INFO: Quitting! Runtime: 00:00:53
+
+2025/01/09 (12:48:28) | ===> btop++ v.1.4.0
+2025/01/09 (12:48:28) | INFO: Logger set to DEBUG
+2025/01/09 (12:48:28) | DEBUG: Using locale en_US.UTF-8
+2025/01/09 (12:48:28) | INFO: Running on /dev/ttys001
+2025/01/09 (12:48:28) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/09 (12:48:28) | DEBUG: checking intel
+2025/01/09 (12:48:28) | DEBUG: no intel sensors found
+2025/01/09 (12:49:49) | INFO: Quitting! Runtime: 00:01:21
+
+2025/01/09 (12:49:59) | ===> btop++ v.1.4.0
+2025/01/09 (12:49:59) | INFO: Logger set to DEBUG
+2025/01/09 (12:49:59) | DEBUG: Using locale en_US.UTF-8
+2025/01/09 (12:49:59) | INFO: Running on /dev/ttys001
+2025/01/09 (12:49:59) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/09 (12:49:59) | DEBUG: checking intel
+2025/01/09 (12:49:59) | DEBUG: no intel sensors found
+2025/01/09 (12:50:07) | INFO: Quitting! Runtime: 00:00:08
+
+2025/01/09 (16:17:19) | ===> btop++ v.1.4.0
+2025/01/09 (16:17:19) | INFO: Logger set to DEBUG
+2025/01/09 (16:17:19) | DEBUG: Using locale en_US.UTF-8
+2025/01/09 (16:17:19) | INFO: Running on /dev/ttys002
+2025/01/09 (16:17:19) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/09 (16:17:19) | DEBUG: checking intel
+2025/01/09 (16:17:19) | DEBUG: no intel sensors found
+2025/01/09 (16:17:20) | INFO: Quitting! Runtime: 00:00:01
+
+2025/01/10 (00:48:40) | ===> btop++ v.1.4.0
+2025/01/10 (00:48:40) | INFO: Logger set to DEBUG
+2025/01/10 (00:48:40) | DEBUG: Using locale en_US.UTF-8
+2025/01/10 (00:48:40) | INFO: Running on /dev/ttys001
+2025/01/10 (00:48:40) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/10 (00:48:40) | DEBUG: checking intel
+2025/01/10 (00:48:40) | DEBUG: no intel sensors found
+2025/01/10 (00:48:50) | INFO: Quitting! Runtime: 00:00:10
+
+2025/01/10 (01:09:10) | ===> btop++ v.1.4.0
+2025/01/10 (01:09:10) | INFO: Logger set to DEBUG
+2025/01/10 (01:09:10) | DEBUG: Using locale en_US.UTF-8
+2025/01/10 (01:09:10) | INFO: Running on /dev/ttys002
+2025/01/10 (01:09:10) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/10 (01:09:10) | DEBUG: checking intel
+2025/01/10 (01:09:10) | DEBUG: no intel sensors found
+2025/01/10 (01:14:34) | DEBUG: Writing new config file
+2025/01/10 (01:14:34) | INFO: Quitting! Runtime: 00:05:24
+
+2025/01/11 (00:11:08) | ===> btop++ v.1.4.0
+2025/01/11 (00:11:08) | INFO: Logger set to DEBUG
+2025/01/11 (00:11:08) | DEBUG: Using locale en_US.UTF-8
+2025/01/11 (00:11:08) | INFO: Running on /dev/ttys001
+2025/01/11 (00:11:08) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/11 (00:11:08) | DEBUG: checking intel
+2025/01/11 (00:11:08) | DEBUG: no intel sensors found
+2025/01/11 (00:12:01) | INFO: Quitting! Runtime: 00:00:53
+
+2025/01/11 (11:39:45) | ===> btop++ v.1.4.0
+2025/01/11 (11:39:45) | INFO: Logger set to DEBUG
+2025/01/11 (11:39:45) | DEBUG: Using locale en_US.UTF-8
+2025/01/11 (11:39:45) | INFO: Running on /dev/ttys001
+2025/01/11 (11:39:45) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/11 (11:39:45) | DEBUG: checking intel
+2025/01/11 (11:39:45) | DEBUG: no intel sensors found
+2025/01/11 (11:40:08) | INFO: Quitting! Runtime: 00:00:23
+
+2025/01/11 (18:11:07) | ===> btop++ v.1.4.0
+2025/01/11 (18:11:07) | INFO: Logger set to DEBUG
+2025/01/11 (18:11:07) | DEBUG: Using locale en_US.UTF-8
+2025/01/11 (18:11:07) | INFO: Running on /dev/ttys001
+2025/01/11 (18:11:07) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/11 (18:11:07) | DEBUG: checking intel
+2025/01/11 (18:11:07) | DEBUG: no intel sensors found
+2025/01/11 (18:11:12) | INFO: Quitting! Runtime: 00:00:05
+
+2025/01/11 (18:11:17) | ===> btop++ v.1.4.0
+2025/01/11 (18:11:17) | INFO: Logger set to DEBUG
+2025/01/11 (18:11:17) | DEBUG: Using locale en_US.UTF-8
+2025/01/11 (18:11:17) | INFO: Running on /dev/ttys001
+2025/01/11 (18:11:17) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/11 (18:11:17) | DEBUG: checking intel
+2025/01/11 (18:11:17) | DEBUG: no intel sensors found
+2025/01/11 (18:11:17) | INFO: Quitting! Runtime: 00:00:00
+
+2025/01/12 (01:06:01) | ===> btop++ v.1.4.0
+2025/01/12 (01:06:01) | INFO: Logger set to DEBUG
+2025/01/12 (01:06:01) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (01:06:01) | INFO: Running on /dev/ttys002
+2025/01/12 (01:06:01) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (01:06:01) | DEBUG: checking intel
+2025/01/12 (01:06:01) | DEBUG: no intel sensors found
+2025/01/12 (01:06:10) | INFO: Quitting! Runtime: 00:00:09
+
+2025/01/12 (12:53:16) | ===> btop++ v.1.4.0
+2025/01/12 (12:53:16) | INFO: Logger set to DEBUG
+2025/01/12 (12:53:16) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (12:53:16) | INFO: Running on /dev/ttys002
+2025/01/12 (12:53:16) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (12:53:16) | DEBUG: checking intel
+2025/01/12 (12:53:16) | DEBUG: no intel sensors found
+2025/01/12 (12:59:41) | DEBUG: Writing new config file
+2025/01/12 (12:59:41) | INFO: Quitting! Runtime: 00:06:25
+
+2025/01/12 (17:07:11) | ===> btop++ v.1.4.0
+2025/01/12 (17:07:11) | INFO: Logger set to DEBUG
+2025/01/12 (17:07:11) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (17:07:12) | INFO: Running on /dev/ttys002
+2025/01/12 (17:07:12) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (17:07:12) | DEBUG: checking intel
+2025/01/12 (17:07:12) | DEBUG: no intel sensors found
+2025/01/12 (17:20:56) | INFO: Quitting! Runtime: 00:13:45
+
+2025/01/12 (17:21:59) | ===> btop++ v.1.4.0
+2025/01/12 (17:21:59) | INFO: Logger set to DEBUG
+2025/01/12 (17:21:59) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (17:21:59) | INFO: Running on /dev/ttys002
+2025/01/12 (17:21:59) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (17:21:59) | DEBUG: checking intel
+2025/01/12 (17:21:59) | DEBUG: no intel sensors found
+2025/01/12 (17:26:21) | INFO: Quitting! Runtime: 00:04:22
+
+2025/01/12 (21:17:54) | ===> btop++ v.1.4.0
+2025/01/12 (21:17:54) | INFO: Logger set to DEBUG
+2025/01/12 (21:17:54) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (21:17:54) | INFO: Running on /dev/ttys002
+2025/01/12 (21:17:54) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (21:17:54) | DEBUG: checking intel
+2025/01/12 (21:17:54) | DEBUG: no intel sensors found
+2025/01/12 (21:20:07) | INFO: Quitting! Runtime: 00:02:13
+
+2025/01/12 (22:11:25) | ===> btop++ v.1.4.0
+2025/01/12 (22:11:25) | INFO: Logger set to DEBUG
+2025/01/12 (22:11:25) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (22:11:25) | INFO: Running on /dev/ttys002
+2025/01/12 (22:11:25) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/12 (22:11:25) | DEBUG: checking intel
+2025/01/12 (22:11:25) | DEBUG: no intel sensors found
+2025/01/12 (22:16:58) | INFO: Quitting! Runtime: 00:05:33
+
+2025/01/13 (02:40:23) | ===> btop++ v.1.4.0
+2025/01/13 (02:40:23) | INFO: Logger set to DEBUG
+2025/01/13 (02:40:23) | DEBUG: Using locale en_US.UTF-8
+2025/01/13 (02:40:23) | INFO: Running on /dev/ttys002
+2025/01/13 (02:40:23) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/13 (02:40:23) | DEBUG: checking intel
+2025/01/13 (02:40:23) | DEBUG: no intel sensors found
+2025/01/13 (14:18:23) | INFO: Quitting! Runtime: 11:38:00
+
+2025/01/13 (20:19:38) | ===> btop++ v.1.4.0
+2025/01/13 (20:19:38) | INFO: Logger set to DEBUG
+2025/01/13 (20:19:38) | DEBUG: Using locale en_US.UTF-8
+2025/01/13 (20:19:38) | INFO: Running on /dev/ttys002
+2025/01/13 (20:19:38) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/13 (20:19:38) | DEBUG: checking intel
+2025/01/13 (20:19:38) | DEBUG: no intel sensors found
+2025/01/13 (21:05:25) | INFO: Quitting! Runtime: 00:45:47
+
+2025/01/14 (14:10:14) | ===> btop++ v.1.4.0
+2025/01/14 (14:10:14) | INFO: Logger set to DEBUG
+2025/01/14 (14:10:14) | DEBUG: Using locale en_US.UTF-8
+2025/01/14 (14:10:14) | INFO: Running on /dev/ttys002
+2025/01/14 (14:10:14) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/14 (14:10:14) | DEBUG: checking intel
+2025/01/14 (14:10:14) | DEBUG: no intel sensors found
+2025/01/14 (14:10:32) | DEBUG: Writing new config file
+2025/01/14 (14:10:32) | INFO: Quitting! Runtime: 00:00:18
+
+2025/01/14 (14:10:35) | ===> btop++ v.1.4.0
+2025/01/14 (14:10:35) | INFO: Logger set to DEBUG
+2025/01/14 (14:10:35) | DEBUG: Using locale en_US.UTF-8
+2025/01/14 (14:10:35) | INFO: Running on /dev/ttys002
+2025/01/14 (14:10:35) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/14 (14:10:35) | DEBUG: checking intel
+2025/01/14 (14:10:35) | DEBUG: no intel sensors found
+2025/01/14 (14:11:03) | INFO: Quitting! Runtime: 00:00:28
+
+2025/01/14 (14:11:05) | ===> btop++ v.1.4.0
+2025/01/14 (14:11:05) | INFO: Logger set to DEBUG
+2025/01/14 (14:11:05) | DEBUG: Using locale en_US.UTF-8
+2025/01/14 (14:11:05) | INFO: Running on /dev/ttys002
+2025/01/14 (14:11:05) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/14 (14:11:05) | DEBUG: checking intel
+2025/01/14 (14:11:05) | DEBUG: no intel sensors found
+2025/01/14 (14:15:11) | DEBUG: Writing new config file
+2025/01/14 (14:15:11) | INFO: Quitting! Runtime: 00:04:06
+
+2025/01/14 (15:07:34) | ===> btop++ v.1.4.0
+2025/01/14 (15:07:34) | INFO: Logger set to DEBUG
+2025/01/14 (15:07:34) | DEBUG: Using locale en_US.UTF-8
+2025/01/14 (15:07:34) | INFO: Running on /dev/ttys002
+2025/01/14 (15:07:34) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/14 (15:07:34) | DEBUG: checking intel
+2025/01/14 (15:07:34) | DEBUG: no intel sensors found
+2025/01/14 (15:12:58) | DEBUG: Writing new config file
+2025/01/14 (15:12:58) | INFO: Quitting! Runtime: 00:05:24
+
+2025/01/15 (15:48:13) | ===> btop++ v.1.4.0
+2025/01/15 (15:48:13) | INFO: Logger set to DEBUG
+2025/01/15 (15:48:13) | DEBUG: Using locale en_US.UTF-8
+2025/01/15 (15:48:13) | INFO: Running on /dev/ttys001
+2025/01/15 (15:48:13) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/15 (15:48:13) | DEBUG: checking intel
+2025/01/15 (15:48:13) | DEBUG: no intel sensors found
+2025/01/15 (15:48:19) | DEBUG: Writing new config file
+2025/01/15 (15:48:19) | INFO: Quitting! Runtime: 00:00:06
+
+2025/01/15 (15:48:20) | ===> btop++ v.1.4.0
+2025/01/15 (15:48:20) | INFO: Logger set to DEBUG
+2025/01/15 (15:48:20) | DEBUG: Using locale en_US.UTF-8
+2025/01/15 (15:48:20) | INFO: Running on /dev/ttys001
+2025/01/15 (15:48:20) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/15 (15:48:20) | DEBUG: checking intel
+2025/01/15 (15:48:20) | DEBUG: no intel sensors found
+2025/01/15 (15:48:20) | INFO: Quitting! Runtime: 00:00:00
+
+2025/01/15 (16:45:33) | ===> btop++ v.1.4.0
+2025/01/15 (16:45:33) | INFO: Logger set to DEBUG
+2025/01/15 (16:45:33) | DEBUG: Using locale en_US.UTF-8
+2025/01/15 (16:45:33) | INFO: Running on /dev/ttys001
+2025/01/15 (16:45:33) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/15 (16:45:33) | DEBUG: checking intel
+2025/01/15 (16:45:33) | DEBUG: no intel sensors found
+2025/01/15 (16:45:44) | DEBUG: Writing new config file
+2025/01/15 (16:45:44) | INFO: Quitting! Runtime: 00:00:11
+
+2025/01/17 (00:11:57) | ===> btop++ v.1.4.0
+2025/01/17 (00:11:57) | INFO: Logger set to DEBUG
+2025/01/17 (00:11:57) | DEBUG: Using locale en_US.UTF-8
+2025/01/17 (00:11:57) | INFO: Running on /dev/ttys001
+2025/01/17 (00:11:57) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/17 (00:11:57) | DEBUG: checking intel
+2025/01/17 (00:11:57) | DEBUG: no intel sensors found
+2025/01/17 (01:21:33) | INFO: Quitting! Runtime: 01:09:36
+
+2025/01/17 (16:38:35) | ===> btop++ v.1.4.0
+2025/01/17 (16:38:35) | INFO: Logger set to DEBUG
+2025/01/17 (16:38:35) | DEBUG: Using locale en_US.UTF-8
+2025/01/17 (16:38:35) | INFO: Running on /dev/ttys001
+2025/01/17 (16:38:35) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/17 (16:38:35) | DEBUG: checking intel
+2025/01/17 (16:38:35) | DEBUG: no intel sensors found
+2025/01/17 (16:38:41) | INFO: Quitting! Runtime: 00:00:06
+
+2025/01/17 (16:39:06) | ===> btop++ v.1.4.0
+2025/01/17 (16:39:06) | INFO: Logger set to DEBUG
+2025/01/17 (16:39:06) | DEBUG: Using locale en_US.UTF-8
+2025/01/17 (16:39:06) | INFO: Running on /dev/ttys001
+2025/01/17 (16:39:06) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/17 (16:39:06) | DEBUG: checking intel
+2025/01/17 (16:39:06) | DEBUG: no intel sensors found
+2025/01/17 (16:41:21) | DEBUG: Writing new config file
+2025/01/17 (16:41:21) | INFO: Quitting! Runtime: 00:02:15
+
+2025/01/19 (14:24:19) | ===> btop++ v.1.4.0
+2025/01/19 (14:24:19) | INFO: Logger set to DEBUG
+2025/01/19 (14:24:19) | DEBUG: Using locale en_US.UTF-8
+2025/01/19 (14:24:19) | INFO: Running on /dev/ttys001
+2025/01/19 (14:24:19) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/19 (14:24:19) | DEBUG: checking intel
+2025/01/19 (14:24:19) | DEBUG: no intel sensors found
+2025/01/19 (14:24:28) | INFO: Quitting! Runtime: 00:00:09
+
+2025/01/19 (14:24:40) | ===> btop++ v.1.4.0
+2025/01/19 (14:24:40) | INFO: Logger set to DEBUG
+2025/01/19 (14:24:40) | DEBUG: Using locale en_US.UTF-8
+2025/01/19 (14:24:40) | INFO: Running on /dev/ttys001
+2025/01/19 (14:24:40) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/19 (14:24:40) | DEBUG: checking intel
+2025/01/19 (14:24:40) | DEBUG: no intel sensors found
+2025/01/19 (14:42:17) | INFO: Quitting! Runtime: 00:17:37
+
+2025/01/21 (15:46:05) | ===> btop++ v.1.4.0
+2025/01/21 (15:46:05) | INFO: Logger set to DEBUG
+2025/01/21 (15:46:05) | DEBUG: Using locale en_US.UTF-8
+2025/01/21 (15:46:05) | INFO: Running on /dev/ttys001
+2025/01/21 (15:46:05) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/21 (15:46:05) | DEBUG: checking intel
+2025/01/21 (15:46:05) | DEBUG: no intel sensors found
+2025/01/21 (17:39:37) | DEBUG: Writing new config file
+2025/01/21 (17:39:37) | INFO: Quitting! Runtime: 01:53:32
+
+2025/01/24 (14:28:27) | ===> btop++ v.1.4.0
+2025/01/24 (14:28:27) | INFO: Logger set to DEBUG
+2025/01/24 (14:28:27) | DEBUG: Using locale en_US.UTF-8
+2025/01/24 (14:28:27) | INFO: Running on /dev/ttys002
+2025/01/24 (14:28:27) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/24 (14:28:27) | DEBUG: checking intel
+2025/01/24 (14:28:27) | DEBUG: no intel sensors found
+2025/01/24 (15:26:22) | INFO: Quitting! Runtime: 00:57:55
+
+2025/01/25 (15:08:36) | ===> btop++ v.1.4.0
+2025/01/25 (15:08:36) | INFO: Logger set to DEBUG
+2025/01/25 (15:08:36) | DEBUG: Using locale en_US.UTF-8
+2025/01/25 (15:08:36) | INFO: Running on /dev/ttys002
+2025/01/25 (15:08:36) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/01/25 (15:08:36) | DEBUG: checking intel
+2025/01/25 (15:08:36) | DEBUG: no intel sensors found
+2025/01/25 (15:08:56) | INFO: Quitting! Runtime: 00:00:20
+
+2025/02/04 (19:02:29) | ===> btop++ v.1.4.0
+2025/02/04 (19:02:29) | INFO: Logger set to DEBUG
+2025/02/04 (19:02:29) | DEBUG: Using locale en_US.UTF-8
+2025/02/04 (19:02:29) | INFO: Running on /dev/ttys000
+2025/02/04 (19:02:29) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/04 (19:02:29) | DEBUG: checking intel
+2025/02/04 (19:02:29) | DEBUG: no intel sensors found
+2025/02/04 (19:05:57) | DEBUG: Writing new config file
+2025/02/04 (19:05:57) | INFO: Quitting! Runtime: 00:03:28
+
+2025/02/05 (02:46:37) | ===> btop++ v.1.4.0
+2025/02/05 (02:46:37) | INFO: Logger set to DEBUG
+2025/02/05 (02:46:37) | DEBUG: Using locale en_US.UTF-8
+2025/02/05 (02:46:37) | INFO: Running on /dev/ttys000
+2025/02/05 (02:46:37) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/05 (02:46:37) | DEBUG: checking intel
+2025/02/05 (02:46:37) | DEBUG: no intel sensors found
+2025/02/05 (02:46:51) | INFO: Quitting! Runtime: 00:00:14
+
+2025/02/05 (19:10:13) | ===> btop++ v.1.4.0
+2025/02/05 (19:10:13) | INFO: Logger set to DEBUG
+2025/02/05 (19:10:13) | DEBUG: Using locale en_US.UTF-8
+2025/02/05 (19:10:13) | INFO: Running on /dev/ttys000
+2025/02/05 (19:10:13) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/05 (19:10:13) | DEBUG: checking intel
+2025/02/05 (19:10:13) | DEBUG: no intel sensors found
+2025/02/05 (19:25:12) | INFO: Quitting! Runtime: 00:14:59
+
+2025/02/06 (01:20:23) | ===> btop++ v.1.4.0
+2025/02/06 (01:20:23) | INFO: Logger set to DEBUG
+2025/02/06 (01:20:23) | DEBUG: Using locale en_US.UTF-8
+2025/02/06 (01:20:23) | INFO: Running on /dev/ttys001
+2025/02/06 (01:20:23) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/06 (01:20:23) | DEBUG: checking intel
+2025/02/06 (01:20:23) | DEBUG: no intel sensors found
+
+2025/02/06 (22:15:16) | ===> btop++ v.1.4.0
+2025/02/06 (22:15:16) | INFO: Logger set to DEBUG
+2025/02/06 (22:15:16) | DEBUG: Using locale en_US.UTF-8
+2025/02/06 (22:15:16) | INFO: Running on /dev/ttys000
+2025/02/06 (22:15:16) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/06 (22:15:16) | DEBUG: checking intel
+2025/02/06 (22:15:16) | DEBUG: no intel sensors found
+2025/02/06 (22:15:25) | DEBUG: Writing new config file
+2025/02/06 (22:15:25) | INFO: Quitting! Runtime: 00:00:09
+
+2025/02/06 (22:44:37) | ===> btop++ v.1.4.0
+2025/02/06 (22:44:37) | INFO: Logger set to DEBUG
+2025/02/06 (22:44:37) | DEBUG: Using locale en_US.UTF-8
+2025/02/06 (22:44:37) | INFO: Running on /dev/ttys000
+2025/02/06 (22:44:37) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/06 (22:44:37) | DEBUG: checking intel
+2025/02/06 (22:44:37) | DEBUG: no intel sensors found
+2025/02/06 (22:50:46) | INFO: Quitting! Runtime: 00:06:09
+
+2025/02/08 (20:50:26) | ===> btop++ v.1.4.0
+2025/02/08 (20:50:26) | INFO: Logger set to DEBUG
+2025/02/08 (20:50:26) | DEBUG: Using locale en_US.UTF-8
+2025/02/08 (20:50:26) | INFO: Running on /dev/ttys000
+2025/02/08 (20:50:26) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/08 (20:50:26) | DEBUG: checking intel
+2025/02/08 (20:50:26) | DEBUG: no intel sensors found
+2025/02/08 (20:50:46) | INFO: Quitting! Runtime: 00:00:20
+
+2025/02/08 (20:50:47) | ===> btop++ v.1.4.0
+2025/02/08 (20:50:47) | INFO: Logger set to DEBUG
+2025/02/08 (20:50:47) | DEBUG: Using locale en_US.UTF-8
+2025/02/08 (20:50:47) | INFO: Running on /dev/ttys000
+2025/02/08 (20:50:47) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/08 (20:50:47) | DEBUG: checking intel
+2025/02/08 (20:50:47) | DEBUG: no intel sensors found
+2025/02/08 (20:51:10) | INFO: Quitting! Runtime: 00:00:23
+
+2025/02/08 (21:09:02) | ===> btop++ v.1.4.0
+2025/02/08 (21:09:02) | INFO: Logger set to DEBUG
+2025/02/08 (21:09:02) | DEBUG: Using locale en_US.UTF-8
+2025/02/08 (21:09:02) | INFO: Running on /dev/ttys003
+2025/02/08 (21:09:02) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/08 (21:09:02) | DEBUG: checking intel
+2025/02/08 (21:09:02) | DEBUG: no intel sensors found
+2025/02/08 (21:09:18) | INFO: Quitting! Runtime: 00:00:16
+
+2025/02/09 (13:17:08) | ===> btop++ v.1.4.0
+2025/02/09 (13:17:08) | INFO: Logger set to DEBUG
+2025/02/09 (13:17:08) | DEBUG: Using locale en_US.UTF-8
+2025/02/09 (13:17:08) | INFO: Running on /dev/ttys001
+2025/02/09 (13:17:08) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/09 (13:17:08) | DEBUG: checking intel
+2025/02/09 (13:17:08) | DEBUG: no intel sensors found
+2025/02/09 (13:26:21) | INFO: Quitting! Runtime: 00:09:13
+
+2025/02/09 (15:07:27) | ===> btop++ v.1.4.0
+2025/02/09 (15:07:27) | INFO: Logger set to DEBUG
+2025/02/09 (15:07:27) | DEBUG: Using locale en_US.UTF-8
+2025/02/09 (15:07:27) | INFO: Running on /dev/ttys001
+2025/02/09 (15:07:27) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/09 (15:07:27) | DEBUG: checking intel
+2025/02/09 (15:07:27) | DEBUG: no intel sensors found
+2025/02/09 (15:17:35) | INFO: Quitting! Runtime: 00:10:08
+
+2025/02/23 (18:16:07) | ===> btop++ v.1.4.0
+2025/02/23 (18:16:07) | INFO: Logger set to DEBUG
+2025/02/23 (18:16:07) | DEBUG: Using locale en_US.UTF-8
+2025/02/23 (18:16:07) | INFO: Running on /dev/ttys001
+2025/02/23 (18:16:07) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/23 (18:16:07) | DEBUG: checking intel
+2025/02/23 (18:16:07) | DEBUG: no intel sensors found
+2025/02/23 (18:18:48) | INFO: Quitting! Runtime: 00:02:41
+
+2025/02/24 (08:16:19) | ===> btop++ v.1.4.0
+2025/02/24 (08:16:19) | INFO: Logger set to DEBUG
+2025/02/24 (08:16:19) | DEBUG: Using locale en_US.UTF-8
+2025/02/24 (08:16:19) | INFO: Running on /dev/ttys004
+2025/02/24 (08:16:19) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/24 (08:16:19) | DEBUG: checking intel
+2025/02/24 (08:16:19) | DEBUG: no intel sensors found
+2025/02/24 (08:16:50) | INFO: Quitting! Runtime: 00:00:31
+
+2025/02/25 (13:35:47) | ===> btop++ v.1.4.0
+2025/02/25 (13:35:47) | INFO: Logger set to DEBUG
+2025/02/25 (13:35:47) | DEBUG: Using locale en_US.UTF-8
+2025/02/25 (13:35:47) | INFO: Running on /dev/ttys004
+2025/02/25 (13:35:47) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/25 (13:35:47) | DEBUG: checking intel
+2025/02/25 (13:35:47) | DEBUG: no intel sensors found
+2025/02/25 (13:36:08) | INFO: Quitting! Runtime: 00:00:21
+
+2025/02/26 (14:26:38) | ===> btop++ v.1.4.0
+2025/02/26 (14:26:38) | INFO: Logger set to DEBUG
+2025/02/26 (14:26:38) | DEBUG: Using locale en_US.UTF-8
+2025/02/26 (14:26:38) | INFO: Running on /dev/ttys006
+2025/02/26 (14:26:38) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/02/26 (14:26:38) | DEBUG: checking intel
+2025/02/26 (14:26:38) | DEBUG: no intel sensors found
+2025/02/26 (14:26:47) | INFO: Quitting! Runtime: 00:00:09
+
+2025/03/06 (15:58:52) | ===> btop++ v.1.4.0
+2025/03/06 (15:58:52) | INFO: Logger set to DEBUG
+2025/03/06 (15:58:52) | DEBUG: Using locale en_US.UTF-8
+2025/03/06 (15:58:52) | INFO: Running on /dev/ttys002
+2025/03/06 (15:58:52) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/03/06 (15:58:52) | DEBUG: checking intel
+2025/03/06 (15:58:52) | DEBUG: no intel sensors found
+2025/03/06 (15:59:20) | DEBUG: Writing new config file
+2025/03/06 (15:59:20) | INFO: Quitting! Runtime: 00:00:28
+
+2025/03/06 (16:02:35) | ===> btop++ v.1.4.0
+2025/03/06 (16:02:35) | INFO: Logger set to DEBUG
+2025/03/06 (16:02:35) | DEBUG: Using locale en_US.UTF-8
+2025/03/06 (16:02:35) | INFO: Running on /dev/ttys001
+2025/03/06 (16:02:35) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2025/03/06 (16:02:35) | DEBUG: checking intel
+2025/03/06 (16:02:35) | DEBUG: no intel sensors found
+2025/03/06 (16:02:35) | INFO: Quitting! Runtime: 00:00:00

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/master/.docker'
+let g:netrw_dirhist_1='/Users/master'
+let g:netrw_dirhist_0='/Users/master/Coltri'
+let g:netrw_dirhist_9='/Users/master'
+let g:netrw_dirhist_8='/Users/master/AlgoLMH/P1_List'
+let g:netrw_dirhist_7='/'
+let g:netrw_dirhist_6='/Users'
+let g:netrw_dirhist_5='/Users/master'
+let g:netrw_dirhist_4='/Users/master/AlgoLMH'
+let g:netrw_dirhist_3='/Users/master/AlgoLMH/P1_List'
