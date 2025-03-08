@@ -1,5 +1,7 @@
 # This and the zprof at the end of the file is to show which function takes the most time to startup: https://stevenvanbael.com/profiling-zsh-startup
-# zmodload zsh/zprof
+if [[ -n "$ZSH_DEBUGRC" ]]; then
+  zmodload zsh/zprof
+fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -121,12 +123,72 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git fzf-tab fzf-tab-source zsh-autosuggestions fast-syntax-highlighting)
 
 # Optimize autocompletion startup
-autoload -Uz compinit
-if [[ -n ${HOME}/.cache/zsh/zcompdump-$ZSH_VERSION(#qN.mh+24) ]]; then
-    compinit -d "$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"
-else
-    compinit -C -d "$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"
-fi
+# autoload -Uz compinit
+# if [[ -n ${HOME}/.cache/zsh/zcompdump-$ZSH_VERSION(#qN.mh+24) ]]; then
+#     compinit -d "$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"
+# else
+#     compinit -C -d "$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"
+# fi
+
+# https://gist.github.com/ctechols/ca1035271ad134841284#gistcomment-2308206
+() {
+  setopt local_options
+
+  local zcompdump="${ZDOTDIR:-$HOME}/.zcompdump"
+  local zcomp_ttl=1  # how many days to let the zcompdump file live before it must be recompiled
+  local lock_timeout=1  # register an error if lock-timeout exceeded
+  local lockfile="${zcompdump}.lock"
+
+  autoload -Uz compinit
+
+  # check for lockfile — if the lockfile exists, we cannot run a compinit
+  #   if no lockfile, then we will create one, and set a trap on EXIT to remove it;
+  #   the trap will trigger after the rest of the function has run.
+  if [ -f "${lockfile}" ]
+  then
+
+    # error log if the lockfile outlived its timeout
+    if [ "$( find "${lockfile}" -mmin $lock_timeout )" ]
+    then
+      (
+        echo "${lockfile} has been held by $(< ${lockfile}) for longer than ${lock_timeout} minute(s)."
+        echo "This may indicate a problem with compinit"
+      ) >&2
+    fi
+
+    # since the zcompdump is still locked, run compinit without generating a new dump
+    compinit -D -d "$zcompdump"
+
+    # Exit if there's a lockfile; another process is handling things
+    return 1
+
+  else
+
+    # Create the lockfile with this shell's PID for debugging
+    echo $$ > "${lockfile}"
+
+    # Ensure the lockfile is removed on exit
+    trap "rm -f '${lockfile}'" EXIT
+
+  fi
+
+
+  # refresh the zcompdump file if needed
+  if [ ! -f "$zcompdump" -o "$( find "$zcompdump" -mtime "+${zcomp_ttl}" )" ]
+  then
+    # if the zcompdump is expired (past its ttl) or absent, we rebuild it
+    compinit -d "$zcompdump"
+
+  else
+
+    # load the zcompdump without updating
+    compinit -CD -d "$zcompdump"
+
+    # asynchronously rebuild the zcompdump file
+    (autoload -Uz compinit; compinit -d "$zcompdump" &);
+
+  fi
+}
 
 # source omz
 source $ZSH/oh-my-zsh.sh
@@ -143,9 +205,55 @@ LESSOPEN="|/usr/local/bin/lesspipe.sh %s"; export LESSOPEN
 # fzf
 source <(fzf --zsh)
 [ -f ~/.fzf.zsh ]
-export FZF_DEFAULT_COMMAND='fd --type file'
+
+# Setting fd as the default source for fzf
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_DEFAULT_OPTS="--ansi"
+# Dracula theme
+export FZF_DEFAULT_OPTS=' --ansi --no-height --no-reverse --color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#c6a0f6,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
+# Catppuccin macchiato theme
+# export FZF_DEFAULT_OPTS=" --ansi --no-height --no-reverse \
+# --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+# --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+# --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
+# --color=selected-bg:#494d64 \
+# --color=border:#363a4f,label:#cad3f5"
+export FZF_TMUX_OPTS='-p63%,75%'
+export FZF_CTRL_T_OPTS="
+  --wrap
+  --select-1 --exit-0
+  --walker-skip .git,node_modules,target
+  --preview 'bat -n --color=always {}'
+  --bind 'ctrl-/:change-preview-window(down|hidden|)'"
+# CTRL-Y to copy the command into clipboard using pbcopy
+export FZF_CTRL_R_OPTS="
+  --preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview'
+  --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
+  --color header:italic
+  --header 'Press CTRL-Y to copy command into clipboard'"
+# Print tree structure in the preview window
+export FZF_ALT_C_OPTS="
+  --walker-skip .git,node_modules,target
+  --preview 'tree -C {}'"
+
+# ripgrep->fzf->vim [QUERY]
+rfv() (
+  RELOAD='reload:rg --column --color=always --smart-case {q} || :'
+  OPENER='if [[ $FZF_SELECT_COUNT -eq 0 ]]; then
+            vim {1} +{2}     # No selection. Open the current line in Vim.
+          else
+            vim +cw -q {+f}  # Build quickfix list for the selected items.
+          fi'
+  fzf --disabled --ansi --multi \
+      --bind "start:$RELOAD" --bind "change:$RELOAD" \
+      --bind "enter:become:$OPENER" \
+      --bind "ctrl-o:execute:$OPENER" \
+      --bind 'alt-a:select-all,alt-d:deselect-all,ctrl-/:toggle-preview' \
+      --delimiter : \
+      --preview 'bat --style=full --color=always --highlight-line {2} {1}' \
+      --preview-window '~4,+{2}+4/3,<80(up)' \
+      --query "$*"
+)
 
 # zsh history
 HISTFILE=~/.zsh_history
@@ -182,7 +290,6 @@ alias pull="git pull"
 alias vdiff="git difftool HEAD"
 alias cfg="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias push="git push"
-alias g="lazygit"
 
 alias ssh="TERM=xterm-256color ssh"
 alias vtree="tree -C | less -R"
@@ -294,6 +401,57 @@ function y() {
 eval "$(zoxide init zsh)"
 export _ZO_ECHO='1'
 
+# integrate fzf with zoxide entries https://github.com/ajeetdsouza/zoxide/discussions/1007
+# function zoxide_fzf() {
+#     # Preserve original buffer content
+#     local orig_buffer=$LBUFFER
+#     local selection
+
+#     # Run fzf, return if canceled (ESC pressed)
+#     selection=$(zoxide query --list | fzf --height 40% --reverse --border) || {
+#         LBUFFER=$orig_buffer
+#         zle redisplay
+#         return 0
+#     }
+
+#     # Append selection if valid
+#     if [[ -n "$selection" ]]; then
+#         LBUFFER+="$selection"
+#         zle redisplay
+#     fi
+# }
+
+function zoxide_fzf() {
+    # Preserve original command line buffer
+    local orig_buffer=$LBUFFER
+    local selection
+
+    # Run zoxide through fzf with eza preview.
+    # The preview command checks if the item is a directory and uses eza to list its contents.
+    selection=$(
+        zoxide query --list | fzf \
+            --wrap \
+            --height 45% \
+            --reverse \
+            --border \
+            --preview 'if [[ -d {} ]]; then eza -a -l --git --hyperlink --header -g -F -s type --color=always {}; else eza -a -l --git --hyperlink --header -g -F -s type --color=always {}; fi' \
+            --preview-window='right:50%:wrap'
+    ) || {
+        LBUFFER=$orig_buffer
+        zle redisplay
+        return 0
+    }
+
+    # If a selection is made, append it to the command line.
+    if [[ -n "$selection" ]]; then
+        LBUFFER+="$selection"
+        zle redisplay
+    fi
+}
+
+zle -N zoxide_fzf
+bindkey '^k' zoxide_fzf
+
 # Navi
 eval "$(navi widget zsh)"
 
@@ -312,6 +470,9 @@ function suyabai () {
     echo "sudoers file does not exist yet"
   fi
 }
+
+# Create and cd into directory
+mkcd() { mkdir -p "$1" && cd "$1"; }
 
 # Color Scheme
 export BLACK=0xff181819
@@ -335,4 +496,6 @@ export BG2=0xff414550
 alias "c=pbcopy"
 alias "v=pbpaste"
 
-# zprof
+if [[ -n "$ZSH_DEBUGRC" ]]; then
+  zprof
+fi
