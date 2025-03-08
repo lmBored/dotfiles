@@ -80,7 +80,8 @@ set smarttab
 set guifont=Iosevka\ 20
 set guioptions-=m
 set guioptions-=T
-set relativenumber
+" set relativenumber
+set norelativenumber
 set ignorecase
 set smartcase
 set incsearch
@@ -91,7 +92,8 @@ set cinoptions=l1
 set splitright " Open split windows on the right (:vnew)
 set splitbelow " Open split windows below (:new)
 set hidden " Vim doesnt require to save current file when :e new_file (open new file)
-set number " Vim show line numbers
+" set number " Vim show line numbers
+set nonumber " turn off line numbers
 set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.
 set termencoding=utf-8
@@ -145,7 +147,8 @@ hi VertSplit guifg=#292C3C guibg=#303446 ctermfg=235 ctermbg=NONE
 " or nnoremap <C-n> :if getbufvar('%', '&filetype')=='nerdtree' <bar> bd <bar> else <bar> NERDTreeToggle <bar> only <bar> endif<CR>
 
 " Toggle nerdtree
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>l
+nnoremap <C-f> :NERDTreeFind<CR>
 
 " Start NERDTree when Vim is started without file arguments.
 autocmd StdinReadPre * let s:std_in=1
@@ -155,6 +158,7 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:NERDTreeFileLines = 1
+let NERDTreeShowHidden=1
 
 " Close Nerdtree upon opening file
 " let g:NERDTreeQuitOnOpen = 1
@@ -174,11 +178,11 @@ inoremap {} {}
 "****************************************************************************
 "
 " Numbertoggle and MyDiff settings from William Lin
-augroup numbertoggle " For fast navigating using <number>j/k
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave * set rnu
-    autocmd BufLeave,FocusLost,InsertEnter * set nornu
-augroup END
+" augroup numbertoggle " For fast navigating using <number>j/k
+"     autocmd!
+"     autocmd BufEnter,FocusGained,InsertLeave * set rnu
+"     autocmd BufLeave,FocusLost,InsertEnter * set nornu
+" augroup END
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -245,7 +249,6 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-Plug 'preservim/nerdtree'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
