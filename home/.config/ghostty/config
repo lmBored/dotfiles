@@ -1,0 +1,19 @@
+theme = catppuccin-macchiato
+font-size = 13
+font-family = JetBrainsMono Nerd Font
+font-thicken = true
+font-thicken-strength = 180
+
+background-blur = true
+background-opacity = 0.9
+unfocused-split-opacity = 0.5
+
+adjust-cell-height = 18%
+
+mouse-hide-while-typing = true
+
+keybind = global:ctrl+space=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-animation-duration = 0
+quick-terminal-autohide = false
+window-save-state = always
