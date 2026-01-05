@@ -1,5 +1,7 @@
 # lmbored's Dotfiles
 
+https://github.com/DakEnviy/dots
+
 A minimal template for building intelligent dotfiles with automatic environment detection and package installation.
 
 > **Powered by [chezmoi](https://chezmoi.io/) ❤️** — Leverages its templating engine and state management.
