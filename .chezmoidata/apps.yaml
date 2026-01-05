@@ -3,19 +3,225 @@ apps:
     desc: The main command-line package manager for Debian and its derivatives
     exec: apt
     conf: false
+  - name: aws-cli
+    desc: Universal Command Line Interface for Amazon Web Services
+    exec: aws
+    conf: false
+  - name: bat
+    desc: A cat(1) clone with wings
+    exec: bat
+    conf: true
+    install:
+      brew: bat
+      cargo: bat
+  - name: bitwarden-cli
+    desc: Bitwarden client
+    exec: bw
+    conf: false
+    install:
+      brew: bitwarden-cli
+      external:
+        target: .local/bin/bw
+        config:
+          type: archive-file
+          url: https://bitwarden.com/download/?app=cli&platform=$platform
+          path: bw
+          executable: true
+          refreshPeriod: 168h
+  - name: btop
+    desc: A monitor of resources
+    exec: btop
+    conf: false
+    install:
+      apt: btop
+      brew: btop
   - name: cargo
     desc: The Rust package manager
     exec: cargo
-    conf: false
+    conf: true
     install:
       apt!: build-essential # This packages is needed for compiling rust packages
       script: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --no-modify-path
+  - name: cargo-update
+    desc: The Rust package manager
+    exec: cargo-install-update
+    conf: false
+    install:
+      apt!: libgit2-dev libcurl4-openssl-dev libssh-dev libssl-dev pkgconf # Dependencies
+      cargo: cargo-update
   - name: chezmoi
     desc: Manage your dotfiles across multiple diverse machines, securely
     exec: chezmoi
+    conf: true
+  - name: cloc
+    desc: Count Lines of Code
+    exec: cloc
     conf: false
+    install:
+      apt: cloc
+      brew: cloc
+  - name: curl
+    desc: A command line tool and library for transferring data with URL syntax
+    exec: curl
+    conf: false
+    install:
+      apt: curl
+      brew: curl
+  - name: doge
+    desc: Reviving A command-line DNS client
+    exec: doge
+    conf: false
+    install:
+      brew: doge
+      cargo: dns-doge
+  - name: duf
+    desc: Disk Usage/Free Utility - a better 'df' alternative
+    exec: duf
+    conf: false
+    install:
+      apt: duf
+      brew: duf
+  - name: dust
+    desc: A more intuitive version of du in rust
+    exec: dust
+    conf: false
+    install:
+      brew: dust
+      cargo: du-dust
+  - name: eza
+    desc: A modern alternative to ls
+    exec: eza
+    conf: true
+    install:
+      brew: eza
+      cargo: eza
+  - name: fd-find
+    desc: A simple, fast and user-friendly alternative to 'find'
+    exec: fd
+    conf: false
+    install:
+      brew: fd
+      cargo: fd-find
+  - name: fish-shell
+    desc: The user-friendly command line shell
+    exec: fish
+    conf: true
+    install:
+      apt: fish
+      brew: fish
+      script!: sudo chsh -s /bin/fish "$USER"
+  - name: fzf
+    desc: A command-line fuzzy finder
+    exec: fzf
+    conf: true
+    install:
+      apt: fzf
+      brew: fzf
+  - name: git
+    desc: A version control system
+    exec: git
+    conf: true
+    install:
+      apt: git
+      brew: git
+  - name: git-delta
+    desc: A syntax-highlighting pager for git, diff, grep, and blame output
+    exec: delta
+    conf: true
+    install:
+      brew: git-delta
+      cargo: git-delta
+  - name: go
+    desc: The Go programming language
+    exec: go
+    conf: true
+  - name: gnupg
+    desc: The GNU Privacy Guard
+    exec: gpg
+    conf: true
+    install:
+      apt: gnupg
+      brew: gnupg
   - name: homebrew
     desc: The missing package manager for macOS (or Linux)
     exec: brew
+    conf: true
+  - name: hyper
+    desc: A terminal built on web technologies
+    exec: hyper
+    conf: true
+  - name: jq
+    desc: Command-line JSON processor
+    exec: jq
     conf: false
-
+    install:
+      apt: jq
+      brew: jq
+  - name: kitty
+    desc: Cross-platform, fast, feature-rich, GPU based terminal
+    exec: kitty
+    conf: true
+  - name: kubectl
+    desc: Production-Grade Container Scheduling and Management
+    exec: kubectl
+    conf: true
+  - name: podman
+    desc: A tool for managing OCI containers and pods
+    exec: podman
+    conf: true
+  - name: python3
+    desc: The Python programming language
+    exec: python3
+    conf: true
+  - name: ranger
+    desc: A VIM-inspired filemanager for the console
+    exec: ranger
+    conf: true
+    install:
+      apt: ranger
+      brew: ranger
+  - name: ripgrep
+    desc: A line-oriented search tool that recursively searches the current directory for a regex pattern
+    exec: rg
+    conf: true
+    install:
+      brew: ripgrep
+      cargo: ripgrep
+  - name: starship
+    desc: The minimal, blazing-fast, and infinitely customizable prompt for any shell
+    exec: starship
+    conf: true
+    install:
+      brew: starship
+      cargo: starship
+  - name: tmux
+    desc: A terminal multiplexer
+    exec: tmux
+    conf: true
+    install:
+      apt: tmux
+      brew: tmux
+  - name: vim
+    desc: A lovely text editor
+    exec: vim
+    conf: true
+    install:
+      apt: vim
+      brew: vim
+  - name: yc
+    desc: Yandex Cloud CLI
+    exec: yc
+    conf: true
+  - name: yq
+    desc: A portable command-line YAML processor
+    exec: yq
+    conf: false
+    install:
+      brew: yq
+      external:
+        target: .local/bin/yq
+        config:
+          type: file
+          url: https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          executable: true
+          refreshPeriod: 168h
