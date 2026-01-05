@@ -141,7 +141,30 @@
 {{-   end -}}
 {{- end -}}
 
-{{- /* Uncomment it if you need to configure `.gitconfig`. Here is an example of how to use unsafe and prompt
+{{- $hostType := promptChoiceOnce . "hostType" "What type of host are you on" (list "desktop" "server") (dig "hostType" "desktop" .) -}}
+
+{{- $sshKeysUrl := dig "ssh" "keysUrl" "" . -}}
+{{- if eq $hostType "server" -}}
+{{-   $sshKeysUrl = promptStringOnce . "unsafe.sshKeysUrl" "Which URL use to fetch public SSH keys" $sshKeysUrl -}}
+{{-   $sshKeysUrl = regexMatch "^https?://" $sshKeysUrl | ternary $sshKeysUrl (printf "https://%s" $sshKeysUrl) -}}
+{{- else -}}
+{{-   $sshKeysUrl = "" -}}
+{{- end -}}
+
+{{- $gpgSearchTerm := dig "gpg" "searchTerm" "gpg" . -}}
+{{- $gpgMainKeyId := dig "gpg" "mainKeyId" "" . -}}
+{{- if and $configure.gpg $binaries.gpg $binaries.bw (eq $hostType "desktop") -}}
+{{-   $prevGpgSearchTerm := $gpgSearchTerm -}}
+{{-   $gpgSearchTerm = promptStringOnce . "gpg.searchTerm" "What is the search term or ID for GPG key in Bitwarden" $gpgSearchTerm -}}
+{{-   if or (not $gpgMainKeyId) (ne $gpgSearchTerm $prevGpgSearchTerm) (promptBoolOnce . "gpg.refresh" "Do you need to refresh GPG key" false) -}}
+{{-     $gpgKey := (bitwarden "item" $gpgSearchTerm).notes -}}
+{{-     $gpgPackets := output "sh" "-c" (printf "printf -- %s | gpg --list-packets" ($gpgKey | quote)) -}}
+{{-     $gpgMainKeyId = $gpgPackets | regexFind "keyid: [0-9A-F]{16}" | substr 7 23 -}}
+{{-   end -}}
+{{- else -}}
+{{-   $gpgSearchTerm = "gpg" -}}
+{{-   $gpgMainKeyId = "" -}}
+{{- end -}}
 
 {{- $gitName := dig "git" "name" "" . -}}
 {{- $gitEmail := dig "git" "email" "" . -}}
@@ -152,7 +175,6 @@
 {{-   $gitName = "" -}}
 {{-   $gitEmail = "" -}}
 {{- end -}}
-*/ -}}
 
 data:
   {{- dict
@@ -166,23 +188,38 @@ data:
         "configureList" $configureList
       | toYaml | trim | nindent 2
   }}
-  {{- /*
+  hostType: {{ $hostType | quote }}
+  ssh:
+    keysUrl: {{ $sshKeysUrl | quote }}
+  gpg:
+    searchTerm: {{ $gpgSearchTerm | quote }}
+    mainKeyId: {{ $gpgMainKeyId | quote }}
+    refresh: false
   git:
     name: {{ $gitName | quote }}
     email: {{ $gitEmail | quote }}
-  */}}
   {{- /* unsafe is used to prompt empty variables */}}
   unsafe:
     _: ""
-    {{- /*
+    {{- with $sshKeysUrl }}
+    sshKeysUrl: {{ . | quote }}
+    {{- end }}
     {{- with $gitName }}
     gitName: {{ . | quote }}
     {{- end }}
     {{- with $gitEmail }}
     gitEmail: {{ . | quote }}
     {{- end }}
-    */}}
 
 edit:
   watch: true
+
+bitwarden:
+  unlock: true
+
+{{ if and $configure.delta $binaries.delta -}}
+diff:
+  pager: delta
+
+{{ end -}}
 

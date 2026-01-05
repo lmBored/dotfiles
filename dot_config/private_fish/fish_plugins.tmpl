@@ -1,0 +1,16 @@
+{{ if .configure.fish -}}
+jorgebucaran/fisher
+hastinbe/theme-kawasaki
+jethrokuan/z
+{{- if and .configure.eza .binaries.eza }}
+plttn/fish-eza
+{{- end }}
+{{- if and .configure.fzf .binaries.fzf }}
+gazorby/fifc
+{{- end }}
+{{- if and .configure.fzf .binaries.fzf .binaries.fd .binaries.bat }}
+patrickf1/fzf.fish
+{{- end }}
+jorgebucaran/nvm.fish
+{{ end -}}
+

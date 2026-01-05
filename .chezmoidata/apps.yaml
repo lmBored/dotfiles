@@ -3,6 +3,13 @@ apps:
     desc: The main command-line package manager for Debian and its derivatives
     exec: apt
     conf: false
+  - name: atuin
+    desc: Magical shell history
+    exec: atuin
+    conf: true
+    install:
+      brew: atuin
+      cargo: atuin
   - name: aws-cli
     desc: Universal Command Line Interface for Amazon Web Services
     exec: aws
@@ -173,13 +180,6 @@ apps:
     desc: The Python programming language
     exec: python3
     conf: true
-  - name: ranger
-    desc: A VIM-inspired filemanager for the console
-    exec: ranger
-    conf: true
-    install:
-      apt: ranger
-      brew: ranger
   - name: ripgrep
     desc: A line-oriented search tool that recursively searches the current directory for a regex pattern
     exec: rg
@@ -225,3 +225,36 @@ apps:
           url: https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           executable: true
           refreshPeriod: 168h
+  - name: yazi
+    desc: Blazing fast terminal file manager written in Rust, based on async I/O
+    exec: yazi
+    conf: true
+    install:
+      brew: yazi
+      cargo: yazi-fm
+      apt!: build-essential libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
+  - name: gh
+    desc: GitHub CLI
+    exec: gh
+    conf: true
+    install:
+      brew: gh
+  - name: zellij
+    desc: A terminal workspace with batteries included
+    exec: zellij
+    conf: true
+    install:
+      brew: zellij
+      cargo: zellij
+  - name: sketchybar
+    desc: A highly customizable macOS status bar
+    exec: sketchybar
+    conf: true
+    install:
+      brew: sketchybar
+  - name: karabiner
+    desc: A powerful keyboard customizer for macOS
+    exec: /Applications/Karabiner-Elements.app/Contents/MacOS/Karabiner-Elements
+    conf: true
+    install:
+      brew: karabiner-elements

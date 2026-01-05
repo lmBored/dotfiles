@@ -1,0 +1,10 @@
+{{ if and .configure.vim .binaries.vim -}}
+#!/usr/bin/env bash
+set -euo pipefail
+
+# hash: {{ includeTemplate "dot_vimrc.tmpl" . | sha256sum }}
+
+vim +PlugInstall +qall
+
+{{ end -}}
+

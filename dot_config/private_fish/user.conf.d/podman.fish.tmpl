@@ -1,0 +1,5 @@
+{{ if and .configure.fish .configure.podman .binaries.podman -}}
+alias docker 'podman'
+
+{{ end -}}
+

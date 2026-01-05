@@ -1,0 +1,26 @@
+{{ if .configure.yazi -}}
+[[mgr.prepend_keymap]]
+on   = [ "c", "m" ]
+run  = "plugin chmod"
+desc = "Chmod on selected files"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "l" ]
+run  = "plugin diff"
+desc = "Diff the selected with the hovered file"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "v" ]
+run  = "plugin vcs-files"
+desc = "Show Git file changes"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "run lazygit"
+
+[[mgr.prepend_keymap]]
+on = "<C-p>"
+run = "plugin mux next"
+desc = "Cycle through mux previewers"
+{{ end -}}

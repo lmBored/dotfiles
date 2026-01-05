@@ -1,0 +1,10 @@
+{{ if and .configure.tmux .binaries.tmux -}}
+#!/usr/bin/env bash
+set -euo pipefail
+
+# hash: {{ includeTemplate "dot_tmux.conf.tmpl" . | sha256sum }}
+
+tmux new-session -d ~/.tmux/plugins/tpm/bindings/install_plugins
+
+{{ end -}}
+

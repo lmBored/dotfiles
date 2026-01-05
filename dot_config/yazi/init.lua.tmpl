@@ -1,0 +1,41 @@
+{{ if .configure.yazi -}}
+-- git.yazi
+require("git"):setup()
+th.git = th.git or {}
+th.git.modified = ui.Style():fg("blue")
+th.git.deleted = ui.Style():fg("red"):bold()
+th.git.modified_sign = "M"
+th.git.deleted_sign = "D"
+
+-- full-border.yazi
+require("full-border"):setup {
+    -- Available values: ui.Border.PLAIN, ui.Border.ROUNDED
+    type = ui.Border.ROUNDED,
+}
+
+-- mux.yazi
+require("mux"):setup({
+    notify_on_switch = true, -- Default: false
+    remember_per_file_extension = false, -- Default: false
+    aliases = {
+        eza_tree_1 = {
+            previewer = "piper",
+            args = {
+                'cd "$1" && LS_COLORS="ex=32" eza --all --git --oneline --tree --level 1 --color=always --icons=always --group-directories-first --no-quotes .',
+            },
+        },
+        eza_tree_2 = {
+            previewer = "piper",
+            args = {
+                'cd "$1" && LS_COLORS="ex=32" eza --all --git --oneline --tree --level 2 --color=always --icons=always --group-directories-first --no-quotes .',
+            },
+        },
+        eza_tree_3 = {
+            previewer = "piper",
+            args = {
+                'cd "$1" && LS_COLORS="ex=32" eza --all --git --oneline --tree --level 3 --color=always --icons=always --group-directories-first --no-quotes .',
+            },
+        },
+    },
+})
+{{ end -}}

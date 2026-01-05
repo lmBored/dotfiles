@@ -1,0 +1,46 @@
+{{ if .configure.fish -}}
+# Load user configurations (it is needed to separate fisher and user configurations)
+for file in "$__fish_config_dir"/user.{functions,conf.d,completions}/*.fish
+    source "$file"
+end
+
+# Theme settings
+set -g fish_prompt_pwd_dir_length 0
+set -g fish_color_command blue
+set -g fish_color_param dadada
+set -g fish_color_operator dadada --bold
+set -g fish_color_comment white
+set -g theme_display_time yes
+set -g theme_display_group no
+set -g theme_display_rw no
+
+{{ if and .configure.fzf .binaries.fzf -}}
+# fifc settings
+set fifc_fd_opts --hidden --exclude=.git
+set fifc_bat_opts --style=numbers --color=always
+{{- if and .configure.vim .binaries.vim }}
+set fifc_editor vim
+{{- end }}
+
+{{ end -}}
+
+{{ if and .configure.fzf .binaries.fzf .binaries.fd .binaries.bat -}}
+# fzf.fish settings
+set fzf_fd_opts --hidden --exclude=.git
+{{- if and .configure.eza .binaries.eza }}
+set fzf_preview_dir_cmd eza -la --group-directories-first --icons --no-permissions --no-user --no-filesize --no-time
+{{- end }}
+{{- if and .configure.delta .binaries.delta }}
+set fzf_diff_highlighter delta --paging=never --width=20
+{{- end }}
+
+{{ end -}}
+
+{{ if and .configure.eza .binaries.eza -}}
+set EZA_STANDARD_OPTIONS --group --group-directories-first --icons
+alias llt 'eza $EZA_STANDARD_OPTIONS --tree'
+
+{{ end -}}
+
+{{ end -}}
+

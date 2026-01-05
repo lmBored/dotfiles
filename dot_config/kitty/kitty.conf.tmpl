@@ -1,0 +1,141 @@
+{{ if .configure.kitty -}}
+# vim:fileencoding=utf-8:foldmethod=marker
+
+#: Fonts {{{
+
+font_family      CaskaydiaCove Nerd Font
+font_size 13
+
+#: Font size (in pts).
+
+# force_ltr no
+
+symbol_map U+F0001-U+F1af0 Hack Nerd Font
+symbol_map U+F8FF,U+100000-U+1018C7 SF Pro
+
+# disable_ligatures never
+
+#: Text cursor customization {{{
+
+# cursor #cccccc
+cursor #e1e3e4
+
+cursor_text_color background
+
+#: The color of text under the cursor.
+
+cursor_blink_interval 0
+
+cursor_trail 3
+cursor_trail_decay 0.1 0.4
+cursor_trail_start_threshold 2
+
+#: }}}
+
+#: Scrollback {{{
+
+#: }}}
+
+#: Mouse {{{
+
+copy_on_select yes
+
+#: }}}
+
+#: Performance tuning {{{
+
+repaint_delay 9
+input_delay 3
+
+#: }}}
+
+#: Terminal bell {{{
+
+enable_audio_bell 0
+
+#: }}}
+
+#: Window layout {{{
+
+remember_window_size  no
+# initial_window_width  640
+# initial_window_height 400
+
+window_margin_width 3
+window_padding_width 16
+
+selection_background #3d4455
+selection_foreground #e1e3e4
+
+hide_window_decorations titlebar-only
+
+resize_debounce_time 0 0.01
+
+confirm_os_window_close 0
+
+#: }}}
+
+#: Tab bar {{{
+
+tab_bar_edge top
+tab_bar_style powerline
+tab_powerline_style slanted
+tab_title_max_length 30
+
+# tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{title}"
+tab_title_template "{fmt.fg.red}{bell_symbol}{fmt.fg.tab} {index}: ({tab.active_oldest_exe}) {title} {activity_symbol}"
+
+active_tab_background #2a2f38
+active_tab_foreground #e1e3e4
+active_tab_font_style bold
+inactive_tab_background #2a2f38
+inactive_tab_foreground #e1e3e4
+inactive_tab_font_style normal
+
+#: }}}
+
+#: Color scheme {{{
+
+background_opacity 0.9
+background_blur 10
+
+selection_background #3d4455
+selection_foreground #e1e3e4
+
+include colorschemes/blossom.conf
+# include colorschemes/macchiato-catppuccin.conf
+
+#: }}}
+
+#: Advanced {{{
+
+#: }}}
+
+#: OS specific tweaks {{{
+
+wayland_titlebar_color system
+macos_titlebar_color system
+macos_quit_when_last_window_closed yes
+macos_show_window_title_in window
+macos_colorspace default
+
+#: }}}
+
+#: Keyboard shortcuts {{{
+
+map cmd+1 goto_tab 1
+map cmd+2 goto_tab 2
+map cmd+3 goto_tab 3
+map cmd+4 goto_tab 4
+map cmd+5 goto_tab 5
+map cmd+6 goto_tab 6
+map cmd+7 goto_tab 7
+map cmd+8 goto_tab 8
+map cmd+9 goto_tab 9
+map cmd+0 goto_tab 10
+
+map cmd+t launch --type=tab --cwd=current
+map cmd+n launch --type=os-window --cwd=current 
+
+#: }}}
+{{ end -}}
